@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Blender-Pro';
+
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Blender-Pro';
+  font-weight: 600;
+  src: url('../../public/assets/fonts/Blender-Pro-Bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BlenderPro-Thin';
+  font-weight: 100;
+  src: url('../../public/assets/fonts/BlenderPro-Thin.ttf') format('truetype');
+}
